@@ -270,3 +270,65 @@ jobs:
 | **NPM Test**| `npm test`           | Run tests for a Node.js application.                            |
 | **Custom Script** | `./deploy-script.sh` | Execute a custom deployment script.                          |
 
+## **Detailed Commands Table**
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Commands</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Clone</b></td>
+      <td>
+        <code>git clone &lt;url&gt;</code>
+        <button onclick="copyToClipboard('git clone <url>')">Copy</button>
+      </td>
+      <td>Clone a repository into a new directory.</td>
+    </tr>
+    <tr>
+      <td><b>Init</b></td>
+      <td>
+        <code>git init</code>
+        <button onclick="copyToClipboard('git init')">Copy</button>
+      </td>
+      <td>Create an empty Git repository or initialize an existing one.</td>
+    </tr>
+    <tr>
+      <td><b>Add</b></td>
+      <td>
+        <code>git add .</code>
+        <button onclick="copyToClipboard('git add .')">Copy</button>
+      </td>
+      <td>Add file contents to the index.</td>
+    </tr>
+    <tr>
+      <td><b>Push</b></td>
+      <td>
+        <code>git push origin &lt;branch&gt;</code>
+        <button onclick="copyToClipboard('git push origin <branch>')">Copy</button>
+      </td>
+      <td>Update remote refs along with associated objects.</td>
+    </tr>
+    <tr>
+      <td><b>Commit</b></td>
+      <td>
+        <code>git commit -m "&lt;message&gt;"</code>
+        <button onclick="copyToClipboard('git commit -m \"<message>\"')">Copy</button>
+      </td>
+      <td>Record changes to the repository with a descriptive message.</td>
+    </tr>
+    <!-- Add more rows here as needed -->
+  </tbody>
+</table>
+
+<script>
+  function copyToClipboard(command) {
+    navigator.clipboard.writeText(command).then(() => {
+      alert(`Copied: ${command}`);
+    });
+  }
+</script>
