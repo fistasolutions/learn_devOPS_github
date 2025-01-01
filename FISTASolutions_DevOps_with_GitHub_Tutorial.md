@@ -240,4 +240,33 @@ jobs:
 
 ---
 
-This book provides clear examples, simple language, and practical labs to help you master DevOps with GitHub. Copy-paste this content into your GitHub repository as a Markdown file for easy sharing.
+## **Detailed Commands Table**
+
+| **Name**    | **Commands**         | **Description**                                                  |
+|-------------|----------------------|------------------------------------------------------------------|
+| **Clone**   | `git clone <url>`    | Clone a repository into a new directory.                        |
+| **Init**    | `git init`           | Create an empty Git repository or initialize an existing one.   |
+| **Add**     | `git add .`          | Add file contents to the index.                                 |
+| **Mv**      | `git mv <source> <destination>` | Move or rename a file, or directory.                          |
+| **Restore** | `git restore <file>` | Restore working tree files.                                     |
+| **Rm**      | `git rm -r <file>`   | Remove files or directories from the working tree and index.    |
+| **Commit**  | `git commit -m "<message>"` | Record changes to the repository with a descriptive message.  |
+| **Push**    | `git push origin <branch>` | Update remote refs along with associated objects.             |
+| **Branch**  | `git branch <branch>`| Create a new branch.                                            |
+| **Checkout**| `git checkout <branch>` | Switch branches or restore working tree files.               |
+| **Merge**   | `git merge <branch>` | Join two or more development histories together.                |
+| **Config**  | `git config --global user.name "<name>"` | Set the global username configuration.                      |
+|             | `git config --global user.email "<email>"` | Set the global email configuration.                        |
+| **Pull**    | `git pull`           | Fetch and integrate with another repository or branch.          |
+| **Status**  | `git status`         | Show the working tree status.                                   |
+| **Log**     | `git log`            | Show commit logs.                                               |
+| **Fetch**   | `git fetch`          | Download objects and refs from another repository.              |
+| **Stash**   | `git stash`          | Save and clear changes in the working directory.                |
+| **Rebase**  | `git rebase <branch>`| Reapply commits on top of another base tip.                     |
+| **Tag**     | `git tag <tag>`      | Create, list, delete, or verify tags in Git.                    |
+| **Reset**   | `git reset <file>`   | Unstage a file without deleting it from the working directory.  |
+| **Init Terraform** | `terraform init` | Initialize a Terraform working directory.                     |
+| **Apply Terraform** | `terraform apply` | Apply Terraform configuration to provision resources.         |
+| **NPM Test**| `npm test`           | Run tests for a Node.js application.                            |
+| **Custom Script** | `./deploy-script.sh` | Execute a custom deployment script.                          |
+
